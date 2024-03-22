@@ -27,12 +27,3 @@ export  function Task() {
 
   return symbols;
 }
-
-
-
-
-
-
-//http://api.marketstack.com/v1/tickers?access_key=1cdd2b792d00ade04ea7f1d2864ff902
-
-//http://api.marketstack.com/v1/eod/latest?access_key=1cdd2b792d00ade04ea7f1d2864ff902&symbols=AAPL
