@@ -1,0 +1,44 @@
+/* Styles for the table */
+table {
+    width: 100%; /* Set the table width to 100% */
+    max-width: 700px; /* Set maximum width for larger screens */
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Collapse table borders */
+    font-family: Arial, sans-serif;
+  }
+  
+  td, th {
+    padding: 12px; /* Add padding to cells */
+    text-align: left;
+    border-radius: 12px; /* Rounded corners for all cells */
+  }
+  
+  th {
+    background-color: #2c3e50; /* Darker blue for table headers */
+    color: white; /* White text for table headers */
+  }
+  
+  /* Hover effect for table rows */
+  tr:hover {
+    background-color: #5f5959; /* Darker gray on hover */
+    color: white; /* White text on hover */
+    border-radius: 20px; /* Increased border-radius on hover */
+  }
+  
+  /* Hide table borders */
+  table {
+    border: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    
+    td, th {
+      padding: 12px; /* Decrease padding for smaller screens */
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  }
+  
