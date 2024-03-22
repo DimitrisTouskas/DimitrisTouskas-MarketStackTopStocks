@@ -18,7 +18,7 @@ export default function StockPrices() {
       try {
         const response = await fetch(URL);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('Error');
         }
         const data = await response.json();
         const closeValues = data.data.map(eod => eod.close);
@@ -32,7 +32,7 @@ export default function StockPrices() {
           symbol: symbolValues
         })
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error:', error);
       }
     }
     fetchDatas();
